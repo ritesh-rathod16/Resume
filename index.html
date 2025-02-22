@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Name - Resume</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Your Name</h1>
+        <p>Web Developer</p>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#certificates">Certificates</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home">
+        <h2>Welcome</h2>
+        <p>This is a brief introduction about yourself.</p>
+    </section>
+
+    <section id="education">
+        <h2>Education</h2>
+        <div class="school">
+            <h3>Bachelor of Science in Computer Science</h3>
+            <p>University Name - Location (2016 - 2020)</p>
+        </div>
+    </section>
+
+    <section id="experience">
+        <h2>Experience</h2>
+        <div class="job">
+            <h3>Front-End Developer</h3>
+            <p>Company Name - Location (2021 - Present)</p>
+            <ul>
+                <li>Developed user-friendly web applications using HTML, CSS, and JavaScript.</li>
+                <li>Collaborated with designers to implement responsive designs.</li>
+                <li>Optimized applications for maximum speed and scalability.</li>
+            </ul>
+        </div>
+        <div class="job">
+            <h3>Intern Web Developer</h3>
+            <p>Company Name - Location (2020 - 2021)</p>
+            <ul>
+                <li>Assisted in the development of web applications.</li>
+                <li>Participated in code reviews and team meetings.</li>
+                <li>Learned best practices in web development.</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li>HTML, CSS, JavaScript</li>
+            <li>React, Node.js</li>
+            <li>Git, GitHub</li>
+            <li>Responsive Design</li>
+        </ul>
+    </section>
+
+    <section id="certificates">
+        <h2>Certificates</h2>
+        <ul>
+            <li>
+                <p>Certificate in Web Development</p>
+                <a href="#" class="view-certificate" data-img="images/certificate1.jpg">View Certificate</a>
+            </li>
+            <li>
+                <p>JavaScript Certification</p>
+                <a href="#" class="view-certificate" data-img="images/certificate2.jpg">View Certificate</a>
+            </li>
+            <li>
+                <p>Responsive Web Design Certification</p>
+                <a href="#" class="view-certificate" data-img="images/certificate3.jpg">View Certificate</a>
+            </li>
+        </ul>
+    </section>
+
+    <footer>
+        <p>Thank you for viewing my resume!</p>
+    </footer>
+
+    <div id="certificate-modal" class="modal">
+        <span class="close">&times;</span>
+        <img class="modal-content" id="modal-img" alt="Certificate">
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
